@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Status Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>System Status</h1>
+    <p class="subtitle">Updated <span id="timestamp"></span></p>
+  </header>
+
+  <main>
+    <div class="status-container">
+      <div class="status-item" id="login">
+        <span class="label">Login</span>
+        <span class="indicator operational">Operational</span>
+      </div>
+      <div class="status-item" id="connectivity">
+        <span class="label">Connectivity</span>
+        <span class="indicator operational">Operational</span>
+      </div>
+      <div class="status-item" id="apis">
+        <span class="label">APIs</span>
+        <span class="indicator degraded">Degraded</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
